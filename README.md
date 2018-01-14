@@ -8,4 +8,5 @@ No he usado técnica de marqueo -aunque la he dejado comentada- pero tendría se
 He asumido que el punto de inicio es (0,0) pero esto podría ser fácilmente modificado en solution[0] en el main.
 
 Laberinto del Ejemplo: 
+
 ![alt text](https://user-images.githubusercontent.com/24595131/34921880-335b138e-f988-11e7-9742-8a8c193ff55a.jpg)
