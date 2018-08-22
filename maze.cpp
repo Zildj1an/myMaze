@@ -42,7 +42,7 @@ int main(){
 
 	tCell startPoint;
 	startPoint.row = startPoint.column = 0;
-  solution[0] = startPoint;
+	solution[0] = startPoint;
 	maze(myMaze,solution,0,3,marks);
 
  return 0;
