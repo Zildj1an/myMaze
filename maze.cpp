@@ -52,7 +52,7 @@ int main(){
 //n is the size of the matrix
 //k is the position in the solution
 void maze(bool myMaze[][3],tCell solution[], int k, int n, bool marks[][3]){
-	for (int dir = 0; dir < 4; dir++)
+	for (int dir = 0; dir < 4; dir++) //TOOD: Diagonal
 	{
 		solution[k] = nextDirection(dir, solution[k-1]);
 		if (isValid(myMaze, solution[k], n, marks)) {
@@ -79,7 +79,7 @@ bool isSolution(tCell pos, int n){
 }
 
 tCell nextDirection(int dir, tCell pos){
-	switch (dir) {
+	switch (dir) { //TODO: Diagonal
 	case 0: ++ pos.column; break;
 	case 1: ++ pos.row; break;
 	case 2: -- pos.column; break;
